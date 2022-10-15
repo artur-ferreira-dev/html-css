@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+</head>
+<style>
+    h1{
+        background-color: lightgray;
+        height: 100px;
+        width: 300px;
+        /* formula completa 
+        border-width: 2px;
+        border-style: solid;
+        border-color: darkslategray;
+        */
+
+        /* shorthand */
+        border: 10px solid darkslategray;
+
+        /* formula completa 
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        */
+        /* shorthand */
+        padding: 10px;
+        /* pode ser usado dois valores ou até os quatro valores para alterar cada lado separadamente. */
+
+        margin:auto;
+        /* margin: auto deixa a caixa no meio
+        pode ser utilizado também como no exemplo do padding e colocando auto apenas nos lados que desejo: margin: auto 10px auto 10px*/
+
+        /* formula completa
+        outline-width: 2px;
+        outline-style: dashed;
+        outline-color: salmon;
+        */
+
+        /* shorthand */
+        outline: 5px dashed salmon;
+    }
+    a{
+        /* modificar caixa  inline para box-level */
+        display: block;
+        /* ao contrario display: inline; ou inline-block*/
+
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+                    
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <!--User agent é sempre o navegador, quando você não configura o css, o navegador cria os parâmetros automaticamente-->
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

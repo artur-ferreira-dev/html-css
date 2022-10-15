@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 97, 126);
+    font-size: 2em;
+    /* Também podem ser utilizados os parâmetros abaixo, lembrando que o italico e negrito também tem seus parâmetros em html então se é para demonstrar significado é melhor utilizar o <strong> (negrito, para enfâse) por exemplo.
+    font-style:italic;
+    font-weight: 100;
+    */
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+    font-size: 1.5em;
+}
+
+p {
+    /* shorthand , atalho para fontes css, a ordem é importante os parâmetros a serem informados devem ser nessa ordem:
+    font-style
+    font-variant
+    font-weight
+    font-size/line-height
+    font-family
+    Exemplo: */
+    font: italic bold 1em Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'LittleBird';
+            src: url('fonts/littlebird.ttf') format('truetype')/*, url('segundo arquivo.otf') format('opentype')*/;
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de format
+            opentype (otf)
+            truetype (ttf)
+            embedded-opentype
+            truetype-aap (Apple Advanced Typography)
+            svg
+            */
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            font-family: 'LittleBird', Times, serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui reprehenderit sint est obcaecati, consectetur voluptate veritatis esse, officia facilis ipsa voluptatibus ipsam ipsum minus, incidunt necessitatibus nisi earum quaerat quis?</p>
+</body>
+</html>
